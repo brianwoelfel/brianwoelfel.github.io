@@ -16,6 +16,7 @@ rmdir /s /q categories
 rmdir /s /q images
 rmdir /s /q tags
 rmdir /s /q posts
+rmdir /s /q archetypes
 
 echo copy up content
 xcopy /e %SRC_DIR% %DEST_DIR%

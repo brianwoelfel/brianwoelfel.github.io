@@ -2,3 +2,15 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Reflections on Enterprise Software Development'
 theme = 'ananke'
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  title = "Home"
+  url = "/"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About"
+  url = "/about/"
